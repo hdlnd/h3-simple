@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>H3 Capital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+  </head>
+  <body>
+  <section class="hero section is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <img id="logo" class="column" src="img/h3_capital_logo.svg" alt="H3 Capital Logo"/>
+        <div id="blurb" class="column">
+          <p class="">
+            H3 Capital is a long only, highly concentrated, deep conviction hedge fund focused on web3 business
+          </p>
+          <p class="h3-space">
+            Our ambition is to become the largest web3 hedge fund over the next decade
+          </p>
+          <p class="h3-space">
+            We're hiring leading research engineers and analysts to join us in the journey
+          </p>
+          <p class="h3-space">
+            If the future excites you email us at <a href="mailto:info@h3.capital">info@h3.capital</a>
+          </p>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script type="text/javascript">
+          var mail = document.getElementById('mail');
+          analytics.trackLink(mail, 'Clicked CTA', {
+            text: 'Mail',
+            category: 'Home Page',
+            type: 'Link',
+            pageTitle: document.title
+          });
+
+          $(document).on('touchmove', function(e) {
+    e.preventDefault();
+});
+        </script>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>

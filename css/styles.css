@@ -77,3 +77,10 @@ a:visited {
       font-size: 1.5em;
   }
 }
+
+@media (width <= 62em) {
+    .container {
+    margin-top: 8em !important;
+  }
+}
+

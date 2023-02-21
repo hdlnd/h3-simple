@@ -12,7 +12,7 @@ section {
 }
 
 .container {
-  max-width: 350px;
+  max-width: 24em;
   margin: auto;
 }
 
@@ -36,7 +36,7 @@ a:visited {
 
 #logo {
   fill: #495edf;
-  max-width: 200px;
+  max-width: 12em;
   padding-bottom: 0;
 }
 
@@ -58,13 +58,19 @@ a:visited {
   text-align: center;
 }
 
-.fa-envelope {
-  margin-left: .1rem;
-  margin-bottom: -1px;
-}
 
 .h3-space {
     text-align: left;
     margin-top: 15px;
     padding-top: 0px;
+}
+
+
+@media (62em <= width) {
+    #logo {
+    max-width: 24em;
+  }
+    .container {
+    max-width: 48em;
+  }
 }

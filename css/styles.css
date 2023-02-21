@@ -79,7 +79,7 @@ a:visited {
 
 @media (width <= 62em) {
     .container {
-    margin-top: 8em !important;
+    margin-top: 6em !important;
   }
 }
 

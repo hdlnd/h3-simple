@@ -67,19 +67,19 @@ a:visited {
 
 @media (62em <= width) {
     #logo {
-    max-width: 18em;
+    max-width: 5.4em;
   }
     .container {
-    max-width: 36em;
+    max-width: 10.8em;
   }
     .h3-space {
-      font-size: 1.5em;
+      font-size: 1.05em;
   }
 }
 
 @media (width <= 62em) {
     .container {
-    margin-top: 6em !important;
+    margin-top: 7.5em !important;
   }
 }
 
